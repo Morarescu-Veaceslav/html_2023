@@ -208,5 +208,12 @@ footer{
     #continut img{
         width: 45%;
     }
+
+    form{
+        width: 100%;
+    }
+    .input-container{
+        margin-left: 85px;
+    }
     
 } 
