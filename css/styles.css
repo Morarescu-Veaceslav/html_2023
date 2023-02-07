@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+/* body */
+body{
+    background-image: url(../img/background1.gif);
+    opacity: 0.9;
+}
+
 /* header */
 
 header{
@@ -7,6 +14,7 @@ header{
     background-color: rgb(150, 147, 152);
     color: white;
     text-align: center;
+    font-family: 'Kalam', cursive;
 }
 
 
@@ -42,6 +50,10 @@ div #nav  a {
     margin: 10px;
     padding: 10px 15px;
     color: rgb(12, 12, 12);
+    border: 1px solid;
+    border-color: hsl(0, 0%, 95%);
+     background-color: #fff;
+    border-radius: 24px;
 }  
 
 div #nav a:visited {
@@ -167,6 +179,40 @@ form section{
     opacity: 1;
 }
 
+/* Table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+   
+  th {
+    padding: 18px;
+  }
+   
+  td {
+    padding: 12px;
+  }
+
+  #heading {
+    background-color: #eab7f4;
+    color: white;
+  }
+   
+  th,td {
+    border: solid 1px white;
+  }
+   
+  tr {
+    background-color: #eddff1;
+  }
+   
+  tr.even {
+    background-color: #efebeb;
+  }
+
 /* footer */
 footer{
     position: fixed;
@@ -176,6 +222,7 @@ footer{
     background-color: rgb(150, 147, 152);
     color: white;
     text-align: center;
+    font-family: 'Kalam', cursive;
   }
 
  @media only screen and (max-width: 850px) {
@@ -214,6 +261,9 @@ footer{
     }
     .input-container{
         margin-left: 17%;
+    }
+    table{
+        width: 100%;
     }
     
 } 
